@@ -1,3 +1,5 @@
+https://cpe-cmu-261207.github.io/lab-04-paintAsone/
+
 # lab 04 : JavaScript HTML DOM Programming 
 
 ให้นักศึกษาสร้าง Web App “Todo list” อย่างง่าย โดยใช้ภาษา Html CSS และ JavaScript ซึ่งมีรายละเอียดตาม pdf ด้านล่างนี้
