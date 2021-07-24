@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #A3C1AD;
+    color: white;
+}
+
+
+header,
+form{
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button{
+    padding: 5px;
+    font-size: medium;
+    border: none;
+    color: black;
+}
+
+form button{
+    padding: 5px;
+    color: white;
+    background: #A3C1AD;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: white;
+    color:#A3C1AD;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 50%;
+    list-style: none;
+}
+
+.done-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.done-list{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: #A3C1AD;
+    color:rgb(95, 95, 95);
+    justify-content: space-between;
+    align-items: right;
+    text-decoration: line-through;
+    list-style: none;
+}
+
+.todo{
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li{
+    flex:1;
+}
+
+.done-button{
+    padding: 2px;
+    margin: 2px;
+    background: green;
+    color: white
+}
+
+.delete-button{
+    padding: 2px;
+    margin: 2px;
+    background: red;
+    color: white
+}
+
+.done-button,
+.delete-button{
+    cursor: pointer;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
