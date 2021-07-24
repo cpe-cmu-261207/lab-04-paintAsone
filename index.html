@@ -3,17 +3,43 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='script.js' defer></script>
-	<title>Lab 04</title>
-	<!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+	<title>Simple todolist</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	
 </head>
 
 <body>
-	<h1>Minimal Todo List</h1>
-	<input  type='text'>
-	<button>+</button>
+	<header>
+		<h1>Simple Todo List</h1>
+	</header>
+	<form>
+		<input class="todo-input" type="text">
+		<button class="todo-button p-1" type="submit">
+			<i class=""> +</i>
+		</button>
+	</form>
+	<div class="todo-container">
+		<ul class="todo-list">
+			<!-- สิ่งที่จะให้ java เขียน
+				<div class="todo">
+					<div class="todo item">
+						<li></li>
+					</div>
+					<button>done</button>
+					<button>delete</button>
+				</div> 
+			-->
+		</ul> 
+	</div>
+	<div class="done-container">
+		<ul class="done-list">
+			<!-- <li></li> -->
+		</ul>
+	</div>
+	
 </body>
 
 </html>
