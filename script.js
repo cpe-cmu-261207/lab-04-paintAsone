@@ -1,5 +1,3 @@
-// เหลือความสวยงามของหน้าเว็บ
-
 const todoInput = document.querySelector('.todo-input')
 const todoButton = document.querySelector('.todo-button')
 const todoList = document.querySelector('.todo-list')
@@ -35,7 +33,7 @@ function addTodo(event){
     
     // done button
     const doneButton = document.createElement('button')
-    doneButton.innerHTML = 'done'
+    doneButton.innerHTML = '<i class="fas fa-check"></i>'
     doneButton.classList.add ('done-button')
     doneButton.style.display = 'none'
     
@@ -45,7 +43,7 @@ function addTodo(event){
 
     // delete button
     const DeleteButton = document.createElement('button')
-    DeleteButton.innerHTML = 'delete'
+    DeleteButton.innerHTML = '<i class="fas fa-trash"></i>'
     DeleteButton.classList.add ('delete-button')
     DeleteButton.style.display = 'none'
     todoDiv.addEventListener('mouseover', ()=>{
@@ -158,7 +156,7 @@ function getTodo(){
     
         // done button
         const doneButton = document.createElement('button')
-        doneButton.innerHTML = 'done'
+        doneButton.innerHTML = '<i class="fas fa-check"></i>'
         doneButton.classList.add ('done-button')
         doneButton.style.display = 'none'
     
@@ -168,7 +166,7 @@ function getTodo(){
 
         // delete button
         const DeleteButton = document.createElement('button')
-        DeleteButton.innerHTML = 'delete'
+        DeleteButton.innerHTML = '<i class="fas fa-trash"></i>'
         DeleteButton.classList.add ('delete-button')
         DeleteButton.style.display = 'none'
         todoDiv.addEventListener('mouseover', ()=>{
